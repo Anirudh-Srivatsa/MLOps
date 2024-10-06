@@ -19,14 +19,14 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message 
     
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     logging.info("Logging has started in the main function.")
     try:
         # Intentional error to trigger logging
         a = 1 / 0
     except Exception as e:
         logging.error("An error occurred", exc_info=True)
-        raise CustomException(e, sys)
+        raise CustomException(e, sys)'''
 
 
     '''
