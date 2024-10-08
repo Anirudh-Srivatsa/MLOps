@@ -19,17 +19,18 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message 
     
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     logging.info("Logging has started in the main function.")
     try:
         # Intentional error to trigger logging
         a = 1 / 0
     except Exception as e:
         logging.error("An error occurred", exc_info=True)
-        raise CustomException(e, sys)'''
+        raise CustomException(e, sys) 
 
 
-    '''
+
+'''
     def error_message_detail(error, error_detail: sys): This is a way to define a function in a programming language. The function is called error_message_detail and it takes two inputs or "arguments":
     error: This is some kind of error or problem that has occurred in the program.
     error_detail: sys: This is additional information about the error, and it's specifically getting that information from a module called sys.
@@ -37,14 +38,14 @@ class CustomException(Exception):
     For example, maybe the function will take the error and the extra details, and then print out a helpful message to the user explaining what went wrong and how they can fix it.
 
     So in simple terms, this function is a way for a computer program to handle and respond to errors that occur, by using the error information and extra details to provide a useful message to the person using the program.
-    '''
+'''
     
-    '''
+'''
     Tuples are often used to group related pieces of data together, like the three values returned by the exc_info() function in the previous example:
     The exception type
     The exception instance
     The traceback object
     we only care about the traceback that third one(in line 5)
-    '''
+'''
 
-    #python -m src.exception use this id src is not recognized
+    #python -m src.exception use this id ,src is not recognized
